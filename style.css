@@ -1,0 +1,95 @@
+/* CSS files add styling rules to your content */
+
+body {
+  
+    display: flex;
+     /* This centers our sketch horizontally. */
+    justify-content: center;
+    
+    margin-top:80px;
+    
+    background: #D0F8E6;
+  }
+  
+  
+  
+  button {
+   
+  }
+  
+  container {
+    text-align:center;
+  }
+  
+  
+  .start {
+    background-color: rgba(238, 106, 134, .9);
+    font-size:30px;
+    width: 300px;
+    height: 60px;
+    border:none;
+    border-radius: 20px;
+    font-family: 'Cabin';
+    color: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 35%;
+  }
+  
+  
+  .quit {
+    background-color: rgba(238, 106, 134, .9);
+    font-size:30px;
+    width: 150px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    font-family: 'Cabin';
+    color: white;
+    position: absolute;
+    left: 21%;
+    top:2%;
+    margin-bottom: 40px;
+    margin-left: -40px;
+  }
+  
+  
+  #instructions p {
+    text-align:center;
+    font-family: 'Cabin';
+    font-size: 20px;
+    color: #ED447F;
+  }
+  
+  #instructions {
+    position: absolute;
+    top: 70%;
+  }
+  
+  
+  #instructions h1 {
+    text-align: center;
+    font-family: 'Cabin';
+    font-size:40px;
+    color: #ED447F;
+  }
+  
+  
+  #score h1 {
+    font-family: 'Cabin';
+    font-size: 35px;
+    color: #ED447F;
+  }
+  
+  #score {
+    right: 31%;
+    position:absolute;
+    top: 2%;
+    font-family: 'Cabin';
+    font-size: 35px;
+    color: #ED447F;
+  }
+  
+  
+  

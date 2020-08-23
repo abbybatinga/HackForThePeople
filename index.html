@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <!-- Import font -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    
+    
+    <!-- Import stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    
+    
+    <!-- import the ml5.js library -->
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    
+    
+    <!-- Import p5 collide 2d library -->
+    <script src="https://unpkg.com/p5.collide2d"></script> 
+    
+    
+  </head>  
+  <body>
+    
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+    
+    <!-- Buttons -->
+
+    <button class="start" id="start" onclick="startGame();">START</button>
+
+    <button class="quit" id="quit" onclick="newGame();">QUIT</button>
+    
+    
+    <!-- Instructions -->
+    <div id = "instructions">
+      
+      <h1>
+        INSTRUCTIONS
+      </h1>
+      
+      <hr>
+      <p>
+        To play, click the "Start" button and allow access to your microphone.
+      </p>
+      <p>
+        To control your character, simply say "Left" if you want to move left <br> and
+        "Right" if you want to move right.
+      </p>
+      
+    </div>
+    
+    <div id="score">
+
+    </div>
+    
+  
+  </body>
+</html>
